@@ -1,7 +1,7 @@
 <template>
 	<label class="w-full">
 		<span class="py-s px-l border border-medium-grey rounded-[.5rem] w-full flex gap-m items-center text-body-m">
-      <span class="w-[1.25rem] h-[1.25rem] rounded-full grid place-items-center border border-medium-grey">
+      <span class="w-[1.25rem] h-[1.25rem] rounded-full flex-shrink-0 grid place-items-center border border-medium-grey">
         <span v-if="isSelected" class="w-2/3 h-2/3 block rounded-full bg-green"></span>
       </span>
       <slot />

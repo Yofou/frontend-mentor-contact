@@ -1,7 +1,7 @@
 <template>
 	<label class="w-full flex flex-col gap-xs">
     <span class="text-body-s text-dark-grey">{{ props.label }} <span class="text-green">*</span> </span>
-		<span class="w-full grid grid-cols-2 gap-m">
+		<span class="w-full grid grid-cols-1 md:grid-cols-2 gap-m">
 			<slot />
 		</span>
 	</label>
